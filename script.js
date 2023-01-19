@@ -11,8 +11,6 @@ function showFiles() {
     app();
 }  
 
-
-
 async function load() {
     const model = await tf.loadLayersModel('tfjs_model/model.json');
     return model;
